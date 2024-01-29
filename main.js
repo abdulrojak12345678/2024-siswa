@@ -12,12 +12,13 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDFYmmVvk-jLZIeAdYKiTwVw2jqd4VINFA",
-  authDomain: "insan-cemerlang.firebaseapp.com",
-  projectId: "insan-cemerlang",
-  storageBucket: "insan-cemerlang.appspot.com",
-  messagingSenderId: "579109661574",
-  appId: "1:579109661574:web:4a7cd4060f70eded945a07"
+  apiKey: "AIzaSyCGdCQI2D46xXf8OkhL4YziDWMHyrGEfjM",
+  authDomain: "ibrahim-235d7.firebaseapp.com",
+  projectId: "ibrahim-235d7",
+  storageBucket: "ibrahim-235d7.appspot.com",
+  messagingSenderId: "935701641604",
+  appId: "1:935701641604:web:ec49facd57c9a56445c5d1",
+  measurementId: "G-0FQ7VSDM4E"
 };
 
 const app = initializeApp(firebaseConfig);
