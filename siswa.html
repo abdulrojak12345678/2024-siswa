@@ -26,7 +26,7 @@ import { ambilDaftarsiswa } from "./main.js";
 
 $(document).ready(async function(){
   let elementNamaSiswa = $('#daftar-siswa');
-  let daftarSiswa = await ambilDaftarSiswa();
+  let daftarSiswa = await ambilDaftarsiswa();
   daftarSiswa.forEach((data) => {
     elementNamaSiswa.append(
       '<li>' +
