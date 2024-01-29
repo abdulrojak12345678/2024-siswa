@@ -21,7 +21,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
+const db = getfirestore(app);
 export async function ambilDaftarsiswa() {
   const siswaRef = collection(db,"siswa");
   const q = query(siswaRef, orderBy("nama"));
